@@ -1,5 +1,8 @@
 <div align="center">
 
+<img src="assets/schemastudio_og_preview.jpg" alt="SchemaStudio 4K Autonomous YouTube Production Pipeline" width="100%" />
+
+
 # 🎬 SchemaStudio
 
 **The Open-Source, Self-Hosted Autonomous 4K YouTube Production Pipeline**<br/>
