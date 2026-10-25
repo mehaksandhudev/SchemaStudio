@@ -1,0 +1,16 @@
+﻿{
+  "channel_name": "SchemaStudio Demo Channel",
+  "channel_handle": "@SchemaStudio",
+  "active_profile": "default_psychology",
+  "upload_privacy": "private",
+  "autopilot_cadence_days": 1,
+  "default_tags": [
+    "SchemaStudio",
+    "Autonomous YouTube",
+    "Open Source",
+    "Deep Dive",
+    "Documentary",
+    "4K Video"
+  ],
+  "require_manual_review": true
+}

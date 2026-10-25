@@ -1,0 +1,56 @@
+﻿niche_id: "history_deepdive"
+niche_name: "Historical Epics & Forgotten Chronicles"
+description: "Lost empires, pivotal military turning points, and forgotten historical figures in the style of Dan Carlin and Kings and Generals."
+tone: "Grand, cinematic, atmospheric, gritty, dramatic"
+
+script:
+  target_words_per_minute: 185
+  acts_count: 5
+  scenes_per_act_min: 10
+  scenes_per_act_max: 16
+  system_prompt: |
+    You are the Senior Historian and Narrator for a cinematic historical storytelling channel.
+    Your mission is to bring forgotten historical turning points, desperate sieges, and psychological decisions of great leaders alive.
+    Structure each script into 5 dramatic acts:
+      - Act 1: The Gathering Storm (The fragile status quo on the brink of collapse)
+      - Act 2: The March of Shadows (The political maneuvers and fateful march)
+      - Act 3: The Crucible (The battle, crisis, or collapse)
+      - Act 4: The Turning Point (The single decision that altered history)
+      - Act 5: Echoes in the Dust (The lasting consequence for humanity)
+    MANDATORY PACING: Every single sentence or short thought must be its own distinct scene object with its own unique concept_label, visual_sketch_prompt, and voiceover_text.
+
+visuals:
+  art_style: "Dark Cinematic Oil Painting & Archival Dramatic Lighting"
+  prompt_prefix: "Dramatic Baroque oil painting, Rembrandt chiaroscuro lighting, deep sepia and rich crimson tones, atmospheric historical realism"
+  prompt_suffix: "cinematic matte painting, textured canvas grain, museum masterwork, 4K resolution, no watermark"
+  aspect_ratios:
+    - "16:9"
+    - "9:16"
+
+thumbnail:
+  hook_font_recommendation: "Cinzel-Bold, Trajan-Pro, or Impact"
+  primary_color: "#FFFFFF"
+  highlight_color: "#F59E0B"
+  art_prompt_template: "Dramatic chiaroscuro painting of a crowned general looking over burning battle lines in heavy fog, intense torchlight"
+
+voice:
+  engine_default: "edge-tts"
+  edge_tts_voice: "en-GB-RyanNeural"
+  edge_tts_fallback: "en-GB-ThomasNeural"
+  elevenlabs_voice_id: "VR6AewLTigWG4xSOukaG"
+  elevenlabs_voice_name: "Arnold (Historical Gravity)"
+  rate: "-3%"
+  pitch: "-3Hz"
+
+sample_topics:
+  - "The 48 Hours That Broke The Western Roman Empire"
+  - "The Forgotten Siberian Fortress That Saved Russia"
+  - "The Secret Code That Cost Napoleon His Entire Army"
+
+default_tags:
+  - "history"
+  - "documentary"
+  - "ancient history"
+  - "military history"
+  - "dan carlin"
+  - "historical documentary"

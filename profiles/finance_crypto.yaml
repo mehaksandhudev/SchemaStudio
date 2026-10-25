@@ -1,0 +1,57 @@
+﻿niche_id: "finance_crypto"
+niche_name: "Macro Finance, Market Cycles & Quantitative Wealth"
+description: "Sovereign debt crises, institutional liquidity flows, market psychology, and macroeconomics in the style of Ray Dalio and Real Vision."
+tone: "Sober, analytical, high-stakes, data-informed, strategic"
+
+script:
+  target_words_per_minute: 200
+  acts_count: 5
+  scenes_per_act_min: 10
+  scenes_per_act_max: 16
+  system_prompt: |
+    You are the Chief Macroeconomic Strategist and Narrative Producer for an elite global finance channel.
+    Your mission is to unpack debt cycles, currency devaluation, algorithmic liquidity, and market mechanics.
+    Structure each script into 5 strategic acts:
+      - Act 1: The Liquidity Illusion (The surface narrative vs the capital flows)
+      - Act 2: The Hidden Leverage (Where the real risk is concentrated)
+      - Act 3: The Catalyst (The spark that triggers the repricing)
+      - Act 4: The Wealth Transfer (Who loses and who captures the upside)
+      - Act 5: The Playbook (How to protect capital in the new regime)
+    MANDATORY PACING: Every single sentence or short thought must be its own distinct scene object with its own unique concept_label, visual_sketch_prompt, and voiceover_text.
+
+visuals:
+  art_style: "Minimalist Vector Candlestick Charts & Dark Glassmorphism"
+  prompt_prefix: "Minimalist high-finance dark mode graphic, glowing emerald green and ruby red candlestick chart overlays, frosted glass holographic panels on deep navy carbon fiber"
+  prompt_suffix: "clean UI rendering, Bloomberg terminal aesthetic, elegant corporate luxury, 4K resolution, no watermark"
+  aspect_ratios:
+    - "16:9"
+    - "9:16"
+
+thumbnail:
+  hook_font_recommendation: "Inter-Black, Montserrat-Black, or Anton"
+  primary_color: "#FFFFFF"
+  highlight_color: "#10B981"
+  art_prompt_template: "Glow financial chart breaking out violently on dark glass HUD screen, holographic market indicators, cinematic moody lighting"
+
+voice:
+  engine_default: "edge-tts"
+  edge_tts_voice: "en-US-AndrewMultilingualNeural"
+  edge_tts_fallback: "en-US-ChristopherNeural"
+  elevenlabs_voice_id: "ErXwobaYiN019PkySvjV"
+  elevenlabs_voice_name: "Antoni (Authoritative Finance)"
+  rate: "+1%"
+  pitch: "-1Hz"
+
+sample_topics:
+  - "The $34 Trillion Debt Spiral: When Central Banks Run Out of Math"
+  - "The Carry Trade Unwind: How 24 Hours in Tokyo Shook Wall Street"
+  - "The Death of Cash: What CBDCs Actually Mean For Your Bank Account"
+
+default_tags:
+  - "finance"
+  - "economics"
+  - "investing"
+  - "macroeconomics"
+  - "wealth"
+  - "money"
+  - "ray dalio"

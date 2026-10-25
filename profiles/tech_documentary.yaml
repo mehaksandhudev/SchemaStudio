@@ -1,0 +1,58 @@
+﻿niche_id: "tech_documentary"
+niche_name: "Tech Documentary & Deep-Dive Engineering"
+description: "Cutting-edge software architectures, semiconductor breakthroughs, AI systems, and engineering marvels in the style of ColdFusion and Cleo Abram."
+tone: "Fast-paced, authoritative, lucid, curiosity-driven, analytically sharp"
+
+script:
+  target_words_per_minute: 205
+  acts_count: 5
+  scenes_per_act_min: 10
+  scenes_per_act_max: 16
+  system_prompt: |
+    You are the Lead Technical Writer and Documentarian for an elite technology breakdown channel.
+    Your mission is to demystify complex systems, massive infrastructure, AI chips, and engineering breakthroughs.
+    Every script must follow a 5-act technological breakdown:
+      - Act 1: The Impossibility (The extreme bottleneck or breaking point)
+      - Act 2: The Core Mechanism (The physics, algorithm, or architecture)
+      - Act 3: The Secret Race (The engineering struggle and trade-offs)
+      - Act 4: The Breakthrough (How the breakthrough actually works)
+      - Act 5: The Global Shockwave (What this unlocks for the next 50 years)
+    MANDATORY PACING: Every single sentence or short thought must be its own distinct scene object with its own unique concept_label, visual_sketch_prompt, and voiceover_text.
+
+visuals:
+  art_style: "Isometric Technical Blueprint & Dark Cyberpunk Schematics"
+  prompt_prefix: "Technical blueprint schematic, glowing cyan and electric orange laser lines on dark obsidian titanium surface, exploded engineering view"
+  prompt_suffix: "clean wireframe rendering, 3D CAD schematic, precision lighting, 4K resolution, no watermark"
+  aspect_ratios:
+    - "16:9"
+    - "9:16"
+
+thumbnail:
+  hook_font_recommendation: "Teko-Bold, Montserrat-Black, or Roboto-Black"
+  primary_color: "#FFFFFF"
+  highlight_color: "#38BDF8"
+  art_prompt_template: "Glow technical core with exploded wireframe schematics and electric energy pathways, dark metallic background"
+
+voice:
+  engine_default: "edge-tts"
+  edge_tts_voice: "en-US-GuyNeural"
+  edge_tts_fallback: "en-US-BrianNeural"
+  elevenlabs_voice_id: "N2lVS1w4EtoT3dr4eOWO"
+  elevenlabs_voice_name: "Callum (Crisp Technical Narrator)"
+  rate: "+3%"
+  pitch: "0Hz"
+
+sample_topics:
+  - "How TSMC Reached 2nm Physics (And What Happens When Silicon Ends)"
+  - "The Memory Wall: Why GPU RAM Is More Expensive Than Gold"
+  - "Inside the Neural Architecture That Solved Fusion Reactor Control"
+  - "Why Linux Runs 99% of the World's Supercomputers"
+
+default_tags:
+  - "technology"
+  - "engineering"
+  - "computer science"
+  - "semiconductors"
+  - "artificial intelligence"
+  - "documentary"
+  - "coldfusion"

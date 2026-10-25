@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SchemaStudio — Creator Studio Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=5.0.0">
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script>
+    if (window.Telegram && window.Telegram.WebApp) {
+      window.Telegram.WebApp.ready();
+      window.Telegram.WebApp.expand();
+    }
+  </script>
+</head>
+<body class="dark-theme">
+  <!-- PAGE 1: CREATOR & ARCHITECTURE LANDING PORTAL (OPENTSHORTS STYLE) -->
+  <div id="creatorPortalView" class="portal-view-container">
+    
+    <!-- STICKY TOP NAVBAR -->
+    <div class="landing-nav-wrapper">
+      <nav class="landing-nav">
+        <div class="landing-brand" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+          <div class="brand-icon-gradient">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="23 7 16 12 23 17 23 7"></polygon>
+              <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+            </svg>
+          </div>
+          <span class="landing-brand-text">SchemaStudio</span>
+        </div>
+
+        <div class="landing-menu">
+          <a href="#features">Features</a>
+          <a href="#how-it-works">How It Works</a>
+          <a href="#comparison">Comparison</a>
+          <a href="#faq">FAQ</a>
+        </div>
+
+        <div class="landing-nav-actions">
+          <a href="https://github.com/mehaksandhudev/faceless-youtube-automation" target="_blank" class="landing-github-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            <span>GitHub</span>
+          </a>
+          <button id="btnNavLaunchApp" class="btn-launch-nav" onclick="window.open('/studio', '_blank')">Launch Studio ↗</button>
+        </div>
+      </nav>
+    </div>
+
+    <!-- HERO SECTION (IMAGE 2 DESIGN WITH AUTHENTIC SchemaStudio CONTENT) -->
+    <div class="landing-hero">
+      <div class="landing-pill-badge">
+        <span>✨</span> Autonomous Neural AI Video Studio & YouTube Cloud Engine
+      </div>
+
+      <h1 class="landing-hero-title">
+        Autonomous Neural <span class="accent-clip">Video Studio</span><br>
+        <span class="accent-gen">& YouTube Cloud</span> Distribution<br>
+        Engine
+      </h1>
+
+      <p class="landing-hero-desc">
+        Architected & Built by <strong>Mehak Sandhu</strong> (<a href="https://github.com/mehaksandhudev" target="_blank">@mehaksandhudev</a>).
+        An end-to-end autonomous multimodal neural AI production studio and publishing pipeline.
+        <br><br>
+        <strong>4K UHD Compositor</strong>: True 3840×2160 master rendering with Lanczos scaling, CRF 17 studio clarity, and microsecond Whisper word-level subtitles. <strong>Quadruple Voice Engine</strong>: ElevenLabs multi-key pool with dynamic acting cues, failing over to Fish Audio and Edge Neural. <strong>YouTube Distribution</strong>: 500-character tag maximization, interactive scrubber timeline chapters, and automated pinned comment engagement funnel.
+      </p>
+
+      <div class="landing-hero-actions">
+        <button id="btnEnterPipeline" class="btn-landing-primary" onclick="window.open('/studio', '_blank')">
+          <span>Enter Production Studio</span>
+          <span style="font-size: 17px;">→</span>
+        </button>
+        <a href="https://github.com/mehaksandhudev/faceless-youtube-automation" target="_blank" class="btn-landing-secondary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          <span>View on GitHub</span>
+        </a>
+      </div>
+
+      <div class="landing-platform-row">
+        <span>Export & Publish to:</span>
+        <span class="landing-platform-item">📺 YouTube 4K</span>
+        <span class="landing-platform-item">▶ YouTube Shorts</span>
+        <span class="landing-platform-item">🎵 TikTok</span>
+        <span class="landing-platform-item">📷 Instagram Reels</span>
+      </div>
+
+      <!-- BOTTOM STATS BAR -->
+      <div class="landing-stats-bar">
+        <div class="landing-stat">
+          <div class="stat-number">4K UHD</div>
+          <div class="stat-label">3840×2160 Master Quality</div>
+        </div>
+        <div class="landing-stat">
+          <div class="stat-number">4 Engines</div>
+          <div class="stat-label">Multi-TTS Voice Pool</div>
+        </div>
+        <div class="landing-stat">
+          <div class="stat-number">-14 LUFS</div>
+          <div class="stat-label">EBU R128 Broadcast Audio</div>
+        </div>
+        <div class="landing-stat">
+          <div class="stat-number">100%</div>
+          <div class="stat-label">Autonomous Cloud Pipeline</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FEATURES SECTION -->
+    <div class="landing-section" id="features">
+      <div class="landing-section-header">
+        <span class="landing-section-tag">Powerful Capabilities</span>
+        <h2 class="landing-section-title">Engineered for Uncompromised Quality</h2>
+        <p class="landing-section-subtitle">A zero-cost enterprise production pipeline replacing expensive subscription SaaS with local & API-free power.</p>
+      </div>
+
+      <div class="landing-feature-grid">
+        <div class="landing-feature-card">
+          <div class="feature-card-icon">🎬</div>
+          <h3>4K UHD Master Compositor</h3>
+          <p>Autonomous rendering in True 3840x2160 with Lanczos scaling, CRF 17 studio clarity, and microsecond Whisper word-level subtitles.</p>
+        </div>
+
+        <div class="landing-feature-card">
+          <div class="feature-card-icon">🎙️</div>
+          <h3>Quadruple Multi-TTS Voice Engine</h3>
+          <p>ElevenLabs Multi-Key rotation pool with dynamic acting cues, failing over seamlessly to Fish Audio, Google Journey, and Microsoft Edge Neural.</p>
+        </div>
+
+        <div class="landing-feature-card">
+          <div class="feature-card-icon">🔊</div>
+          <h3>-14 LUFS Broadcast Audio Normalization</h3>
+          <p>Automated EBU R128 two-pass filtering ensures broadcast loudness standard compliance so YouTube never compresses or dampens volume.</p>
+        </div>
+
+        <div class="landing-feature-card">
+          <div class="feature-card-icon">🏷️</div>
+          <h3>500-Character Maximum Tag Packing</h3>
+          <p>Quote-aware algorithm packing 24–32 high-ranking US psychology keywords up to 485/500 characters for maximum algorithmic discovery.</p>
+        </div>
+
+        <div class="landing-feature-card">
+          <div class="feature-card-icon">🔓</div>
+          <h3>YouTube Advanced Features Active</h3>
+          <p>Interactive player timeline chapters rendered directly on video scrubbers, clickable links, and unlimited daily cloud publishing.</p>
+        </div>
+
+        <div class="landing-feature-card">
+          <div class="feature-card-icon">💬</div>
+          <h3>Auto Pinned Comments & Funnel Engine</h3>
+          <p>Automated background daemon sweeps public videos to post vulnerability-provoking discussion questions and master video funnel links.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- HOW IT WORKS SECTION -->
+    <div class="landing-section" id="how-it-works">
+      <div class="landing-section-header">
+        <span class="landing-section-tag">Autonomous Workflow</span>
+        <h2 class="landing-section-title">How SchemaStudio Works</h2>
+        <p class="landing-section-subtitle">From raw topic idea to published 4K video and shorts in minutes.</p>
+      </div>
+
+      <div class="landing-steps-grid">
+        <div class="landing-step-card">
+          <span class="step-num-badge">STEP 01</span>
+          <h4>Topic & Hook Research</h4>
+          <p>Tavily AI searches deep behavioral psychology patterns while Gemini 2.5 Flash crafts curiosity gap hooks.</p>
+        </div>
+
+        <div class="landing-step-card">
+          <span class="step-num-badge">STEP 02</span>
+          <h4>Multi-Engine Voice & Sync</h4>
+          <p>Synthesizes emotive narration with ElevenLabs key rotation, followed by microsecond Whisper subtitle timestamps.</p>
+        </div>
+
+        <div class="landing-step-card">
+          <span class="step-num-badge">STEP 03</span>
+          <h4>4K UHD Composition</h4>
+          <p>Composites FLUX cinematics, animated captions, and ambient audio with -14 LUFS loudness normalization.</p>
+        </div>
+
+        <div class="landing-step-card">
+          <span class="step-num-badge">STEP 04</span>
+          <h4>Cloud Distribution & SEO</h4>
+          <p>Packs 500 characters of tags, syncs interactive chapters, uploads via OAuth, and pins engaging discussion comments.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- COMPARISON SECTION -->
+    <div class="landing-section" id="comparison">
+      <div class="landing-section-header">
+        <span class="landing-section-tag">Honest Comparison</span>
+        <h2 class="landing-section-title">Open Source vs Commercial SaaS</h2>
+        <p class="landing-section-subtitle">Why creators choose SchemaStudio over monthly subscription platforms.</p>
+      </div>
+
+      <table class="landing-comparison-table">
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>SchemaStudio</th>
+            <th>Commercial SaaS (InVideo, Opus, etc.)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monthly Cost</td>
+            <td class="highlight">$0 (Free & Open Source)</td>
+            <td>$30 – $150 / month</td>
+          </tr>
+          <tr>
+            <td>Render Resolution</td>
+            <td class="highlight">True 4K UHD (3840×2160)</td>
+            <td>720p – 1080p (4K paywalled)</td>
+          </tr>
+          <tr>
+            <td>Audio Quality</td>
+            <td class="highlight">-14 LUFS Broadcast Standard</td>
+            <td>Unnormalized / Clipped</td>
+          </tr>
+          <tr>
+            <td>Tag & SEO Packing</td>
+            <td class="highlight">500-Character Maximum</td>
+            <td>Generic 5–10 tags</td>
+          </tr>
+          <tr>
+            <td>Video Watermarks</td>
+            <td class="highlight">None ($0 No Watermarks)</td>
+            <td>Watermarked on free tier</td>
+          </tr>
+          <tr>
+            <td>Timeline Chapters</td>
+            <td class="highlight">Interactive Scrubber Markers</td>
+            <td>Manual or absent</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- FAQ SECTION -->
+    <div class="landing-section" id="faq">
+      <div class="landing-section-header">
+        <span class="landing-section-tag">Frequently Asked Questions</span>
+        <h2 class="landing-section-title">Everything You Need To Know</h2>
+      </div>
+
+      <div class="landing-faq-grid">
+        <div class="landing-faq-item">
+          <h4>Is this really 100% free and open source?</h4>
+          <p>Yes. SchemaStudio runs locally on your machine using Python, ffmpeg, and open-source models with free tier API rotational quotas.</p>
+        </div>
+
+        <div class="landing-faq-item">
+          <h4>How does the multi-key rotation work?</h4>
+          <p>The system rotates through your ElevenLabs API keys dynamically. When one key is exhausted, it transparently falls back to the next key or Fish Audio.</p>
+        </div>
+
+        <div class="landing-faq-item">
+          <h4>What are timeline chapters on YouTube?</h4>
+          <p>Because your channel is verified, timestamps starting at 00:00 automatically create interactive scrub bar chapter markers directly on YouTube's player.</p>
+        </div>
+
+        <div class="landing-faq-item">
+          <h4>How do I launch the production studio?</h4>
+          <p>Simply click "Get Started Free" or "Launch Studio" at the top to access the full control dashboard with 1-click generation.</p>
+        </div>
+      </div>
+
+      <div class="landing-footer">
+        <p>Architected & Built with passion by <strong>Mehak Sandhu</strong> (<a href="https://github.com/mehaksandhudev" target="_blank">@mehaksandhudev</a>) • SchemaStudio</p>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <script>
+    window.openStudio = function() {
+      window.open('/studio', '_blank');
+    };
+  </script>
+</body>
+</html>

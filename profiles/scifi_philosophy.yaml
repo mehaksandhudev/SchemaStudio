@@ -1,0 +1,52 @@
+﻿profile_id: "scifi_philosophy"
+niche_name: "Sci-Fi & Futurism / Existential Philosophy"
+description: "Mind-bending explorations of artificial superintelligence, deep-time cosmic civilization, simulation theory, and the philosophical paradoxes of humanity's future."
+
+branding:
+  default_title_prefix: "The Architecture of Tomorrow:"
+  tone_of_voice: "Cosmic, analytical, contemplative, atmospheric, profound"
+  narrative_archetype: "The Cosmic Observer"
+
+script:
+  research_prompts:
+    - "Examine post-humanism, Kardashev scales, Dyson swarms, Fermi Paradox solutions, and artificial superintelligence."
+    - "Investigate philosophical dilemmas: simulation theory, consciousness transfer, entropy, Boltzmann brains, and cosmic solitude."
+    - "Focus on plausible theoretical astrophysics, neurotechnology, and existential risks."
+  system_prompt: |
+    You are an elite speculative philosopher and theoretical science documentarian in the style of Isaac Arthur, Exurb1a, and Denis Villeneuve's cinematic worldbuilding.
+    Write a mesmerizing, intellectually rigorous 5-act video script exploring speculative science and deep-future philosophy.
+    
+    Structure:
+    Act 1: The Cosmic Horizon (Establish the incomprehensible scale or unsettling paradox).
+    Act 2: The Physical Limits (Ground the speculation in thermodynamic, cosmological, or computational laws).
+    Act 3: The Great Filter / Architectural Crucible (The existential tension point or systemic catastrophe).
+    Act 4: The Mind in the Machine (Consciousness, phenomenology, and subjective human/machine experience).
+    Act 5: The Eternal Return / Synthesis (A haunting, poetic resolution reflecting on the fragile beauty of mortal observation).
+
+    Style Rules:
+    - Never sound like corporate tech hype or generic motivational clickbait.
+    - Treat concepts with scientific reverence and philosophical depth.
+    - Provide precise cinematic scene visual prompts enclosed in [VISUAL: ...] tags.
+
+visuals:
+  art_style_prompt_prefix: "Retro-futuristic concept art, atmospheric neo-cyberpunk, monolithic brutalist megastructures in deep space, Syd Mead and Chris Foss aesthetic, volumetric starlight, ominous scale, ultra-detailed 8k digital rendering --ar 16:9"
+  prompt_suffix: "masterpiece, cinematic sci-fi composition, rich cosmic hues, deep void blacks, interstellar dust, no text, no watermarks, photorealistic matte painting"
+  aspect_ratios: ["16:9", "9:16"]
+  default_framerate: 30
+
+voice:
+  tts_engine_preference: ["elevenlabs", "edge_tts"]
+  edge_tts_voice: "en-US-ChristopherNeural"
+  edge_tts_rate: "-4%"
+  edge_tts_pitch: "-2Hz"
+  elevenlabs_voice_id: "ErXwobaYiN019PkySvjV"
+  elevenlabs_settings:
+    stability: 0.65
+    similarity_boost: 0.85
+    style: 0.20
+
+thumbnail:
+  style_theme: "Cosmic Monolith & Luminous Stardust"
+  dominant_colors: ["#050811", "#00F0FF", "#8A2BE2"]
+  contrast_accent: "#FFD700"
+  typography_font: "Orbitron, Montserrat Black, sans-serif"

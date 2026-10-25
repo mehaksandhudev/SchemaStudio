@@ -1,0 +1,35 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Environment & Secrets (NEVER COMMIT)
+.env
+*.pickle
+token.json
+client_secrets.json
+credentials/token.json
+credentials/client_secrets.json
+
+# Studio Outputs & Media Cache
+output/
+scratch/
+temp/
+*.mp4
+*.mp3
+*.wav
+*.tar.gz
+*.zip
+*.lock
+
+# Logs
+logs/
+*.log
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

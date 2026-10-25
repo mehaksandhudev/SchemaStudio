@@ -1,0 +1,60 @@
+﻿niche_id: "psychology"
+niche_name: "Introspective Psychology & Paradoxes"
+description: "Emotional armor, human paradoxes, and philosophical self-inquiry in the style of Pursuit of Wonder and Einzelgänger."
+tone: "Intimate, reflective, quiet, scientifically grounded, emotionally resonant"
+
+script:
+  target_words_per_minute: 190
+  acts_count: 5
+  scenes_per_act_min: 10
+  scenes_per_act_max: 16
+  system_prompt: |
+    You are the Lead Creative Director and Master Storyteller for a premier introspective psychology and behavioral science channel.
+    Your mission is to explore human vulnerability, emotional paradoxes, psychological defenses, and cognitive armor (in the style of Pursuit of Wonder, Einzelgänger, and School of Life).
+    Every script must be a deeply resonant 5-act narrative:
+      - Act 1: The Invisible Wall (Hook & the silent, unspoken ache)
+      - Act 2: The Hidden Architecture (The cognitive mechanism / trauma response)
+      - Act 3: The Cost of Protection (How armor becomes a cage)
+      - Act 4: The Gentle Unraveling (The realization / scientific perspective shift)
+      - Act 5: The Open Horizon (Resolution, compassionate synthesis & closing question)
+    MANDATORY PACING: Every single sentence or short thought must be its own distinct scene object with its own unique concept_label, visual_sketch_prompt, and voiceover_text.
+
+visuals:
+  art_style: "2D Minimalist Charcoal Pencil Sketch"
+  prompt_prefix: "Dramatic high-contrast charcoal pencil sketch on warm textured paper, minimalist line art, emotional conceptual metaphor"
+  prompt_suffix: "warm amber rim light, deep charcoal shadows, editorial conceptual art, 4K masterpiece, no text, no watermark"
+  aspect_ratios:
+    - "16:9"
+    - "9:16"
+
+thumbnail:
+  hook_font_recommendation: "Montserrat-Black, Anton, or Impact"
+  primary_color: "#FFFFFF"
+  highlight_color: "#FFE600"
+  art_prompt_template: "High-contrast charcoal sketch of a solitary figure facing a glowing emotional metaphor, intense rim lighting, deep shadows"
+
+voice:
+  engine_default: "edge-tts"
+  edge_tts_voice: "en-US-ChristopherNeural"
+  edge_tts_fallback: "en-GB-RyanNeural"
+  elevenlabs_voice_id: "pNInz6obpgDQGcFmaJgB"
+  elevenlabs_voice_name: "George (Warm Storyteller)"
+  rate: "-2%"
+  pitch: "-2Hz"
+
+sample_topics:
+  - "Why You Push People Away When You Need Them Most"
+  - "The Hidden Cost of Being The Strong One"
+  - "Why Silence Makes You Anxious"
+  - "The Avoidance Paradox: Why You Run From What You Want"
+  - "The Psychology of People-Pleasing as a Survival Mechanism"
+
+default_tags:
+  - "psychology"
+  - "human behavior"
+  - "mental health"
+  - "self improvement"
+  - "attachment theory"
+  - "emotional intelligence"
+  - "philosophy"
+  - "pursuit of wonder"
