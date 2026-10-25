@@ -10,12 +10,14 @@
 [![Edge-TTS](https://img.shields.io/badge/TTS-Edge--TTS%20(Zero--Cost)-ff69b4?style=flat-square&logo=microsoft&logoColor=white)](https://github.com/rany2/edge-tts)
 [![FLUX.1](https://img.shields.io/badge/Visuals-FLUX.1%20Ready-black?style=flat-square&logo=modal&logoColor=white)](https://modal.com)
 [![FastAPI](https://img.shields.io/badge/Dashboard-FastAPI%20%2B%20Web%20Studio-009688?style=flat-square&logo=fastapi&logoColor=white)](http://localhost:8000)
+[![Sponsor](https://img.shields.io/badge/Sponsor-PayPal-00457C?style=flat-square&logo=paypal&logoColor=white)](https://paypal.me/mhksandhu)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-FFDD00?style=flat-square&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/mehaksandhudev)
 [![GitHub Stars](https://img.shields.io/github/stars/mehaksandhudev/SchemaStudio?style=flat-square&logo=github)](https://github.com/mehaksandhudev/SchemaStudio)
 
 An autonomous, multi-channel video production workstation for developers, creators, and media labs.<br/>
 Built to run **100% free out-of-the-box** using open models and neural speech, with instant zero-code upgrades to ElevenLabs and Modal GPU when API keys are provided.
 
-[Live Web Studio](#-web-studio-pro-ui) • [Quick Start](#-quick-start) • [Niche Profiles](#-built-in-niche-profiles) • [Architecture](#-architecture-pipeline) • [Contributing](#-contributing)
+[Live Web Studio](#-web-studio-pro-ui) • [Quick Start](#-quick-start) • [Niche Profiles](#-built-in-niche-profiles) • [Support](#-support) • [Contributing](#-contributing)
 
 </div>
 
@@ -30,6 +32,7 @@ Built to run **100% free out-of-the-box** using open models and neural speech, w
 - [🖥️ Web Studio Pro UI](#-web-studio-pro-ui)
 - [🔐 Universal YouTube OAuth2 Setup](#-universal-youtube-oauth2-setup)
 - [🛡️ Zero-Cost Guarantees & Fallbacks](#-zero-cost-guarantees--fallbacks)
+- [☕ Support](#-support)
 - [🤝 Contributing](#-contributing)
 - [📜 License](#-license)
 
@@ -181,13 +184,22 @@ SchemaStudio is engineered so you can clone and test everything without spending
 
 ---
 
+## ☕ Support
+
+If this project helped you, consider supporting via [**PayPal**](https://paypal.me/mhksandhu) or [**Buy Me A Coffee**](https://buymeacoffee.com/mehaksandhudev)!
+
+[![Donate with PayPal](https://img.shields.io/badge/Donate-PayPal-00457C?style=flat-square&logo=paypal&logoColor=white)](https://paypal.me/mhksandhu)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee--FFDD00?style=flat-square&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/mehaksandhudev)
+
+---
+
 ## 🤝 Contributing
 
 Contributions, bug reports, and new profile presets are warmly welcomed!
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/NewProfile`)
-3. Commit your changes (`git commit -m 'feat: add medieval history profile'`)
+3. Commit your changes (`git commit -m "feat: add medieval history profile"`)
 4. Push to the branch (`git push origin feature/NewProfile`)
 5. Open a Pull Request
 
@@ -195,6 +207,12 @@ Contributions, bug reports, and new profile presets are warmly welcomed!
 
 ## 📜 License
 
-Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
+MIT © [**Mehak Sandhu**](https://mehak-sandhu.in) — see [`LICENSE`](LICENSE) for details.
 
-Developed with ❤️ by [**@mehaksandhudev**](https://github.com/mehaksandhudev).
+---
+
+<div align="center">
+
+Crafted with ❤️ by **[Mehak Sandhu](https://github.com/mehaksandhudev)** • [Portfolio](https://www.mehak-sandhu.in)
+
+</div>
